@@ -1,0 +1,3 @@
+Requires pygooglevoice (available via setuptools) and the PyPhone core
+modules (the GooglePhone and Phone modules, specifically).
+
