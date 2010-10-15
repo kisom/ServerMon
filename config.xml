@@ -1,0 +1,32 @@
+<configuration>
+
+    <serverlist>
+        <server name='wolfman' addr='wolfman.devio.us'>
+            <alert>
+                <twitter name='wolfman' />
+                <admin name='kyle' phone='+17202515371' />
+            </alert>
+            <monitor>
+                <service>ssh</service>
+                <service>http</service>
+                <interval>3600</interval>
+            </monitor>
+        </server>
+        <server name='freeside'   addr='freeside.brokenlcd.net' port='22'>
+            <alert>
+                <admin name='kyle' phone='+17202515371' />
+            </alert>
+            <monitor>
+                <service>ssh</service>
+                <interval>3600</interval>
+            </monitor>
+        </server>
+    </serverlist>
+
+    <phone>
+        <phonetype>Google</phonetype>
+        <account>googlevoice</account>
+        <login>kyle.d.isom</login>
+    </phone>
+
+</configuration>
